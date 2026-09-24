@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc6d5cb6-62fb-41d0-b648-339f92b13d7a" name="Changes" comment="" />
+    <list default="true" id="fc6d5cb6-62fb-41d0-b648-339f92b13d7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ScoreCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/types/index.ds.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/types/puter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/welcome.tsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -16,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.021065881317545" />
-      <entry key="MS500" value="2.1941092620029243" />
-      <entry key="S2" value="5.237037449641822" />
-      <entry key="S5" value="7.613406883208719" />
-      <entry key="S10" value="11.423969575531645" />
-      <entry key="S30" value="23.169004307056394" />
-      <entry key="S60" value="33.17877965867848" />
-      <entry key="M2" value="43.53912025904132" />
-      <entry key="M5" value="57.17364300896572" />
-      <entry key="M10" value="67.39611794968926" />
-      <entry key="M15" value="72.4706042689948" />
-      <entry key="M30" value="78.85712968207989" />
-      <entry key="H1" value="82.67562957785458" />
-      <entry key="H2" value="84.76982631176145" />
-      <entry key="H4" value="85.86728104446291" />
-      <entry key="D1" value="86.80870869992229" />
-      <entry key="W1" value="86.97261058630053" />
+      <entry key="MS100" value="1.3326945739353376E-23" />
+      <entry key="MS500" value="2.6603950181184736E-5" />
+      <entry key="S2" value="0.07181853330761366" />
+      <entry key="S5" value="0.34881760674910545" />
+      <entry key="S10" value="0.6073701223447996" />
+      <entry key="S30" value="1.5520302312245429" />
+      <entry key="S60" value="2.811368833599479" />
+      <entry key="M2" value="4.468454718938989" />
+      <entry key="M5" value="11.110052003198811" />
+      <entry key="M10" value="31.18554248989613" />
+      <entry key="M15" value="52.99333493118489" />
+      <entry key="M30" value="112.21879348721322" />
+      <entry key="H1" value="215.9944568037562" />
+      <entry key="H2" value="351.252129809447" />
+      <entry key="H4" value="471.33786900189347" />
+      <entry key="D1" value="618.563704050162" />
+      <entry key="W1" value="649.6288390996916" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000050218" />
+      <entry key="S5" value="1.000075917920448" />
+      <entry key="S10" value="1.0087130893359209" />
+      <entry key="S30" value="1.2064650811485311" />
+      <entry key="S60" value="1.4837475353012084" />
+      <entry key="M2" value="1.9069328985584288" />
+      <entry key="M5" value="3.298150345069307" />
+      <entry key="M10" value="6.469666111412105" />
+      <entry key="M15" value="9.43083863240913" />
+      <entry key="M30" value="16.632306087962046" />
+      <entry key="H1" value="27.32448781957773" />
+      <entry key="H2" value="39.01259992936748" />
+      <entry key="H4" value="48.21277691812754" />
+      <entry key="D1" value="58.558889424591875" />
+      <entry key="W1" value="60.64272574417614" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.2195144699161736" />
-      <entry key="MS500" value="1.8597477965648186" />
-      <entry key="S2" value="4.8252029507973635" />
-      <entry key="S5" value="7.159860553302767" />
-      <entry key="S10" value="11.008760717609098" />
-      <entry key="S30" value="22.926972209753934" />
-      <entry key="S60" value="33.035388240922984" />
-      <entry key="M2" value="43.46022980285161" />
-      <entry key="M5" value="57.139833613565195" />
-      <entry key="M10" value="67.37870608633594" />
-      <entry key="M15" value="72.45886308666678" />
-      <entry key="M30" value="78.85118513955106" />
-      <entry key="H1" value="82.67263716389226" />
-      <entry key="H2" value="84.7683248327948" />
-      <entry key="H4" value="85.86652895537271" />
-      <entry key="D1" value="86.80858316150963" />
-      <entry key="W1" value="86.97259264754578" />
+      <entry key="MS100" value="2.9722769915027598E-6" />
+      <entry key="MS500" value="0.07845772058892155" />
+      <entry key="S2" value="0.571606707700813" />
+      <entry key="S5" value="1.0577760075159814" />
+      <entry key="S10" value="1.434696699121802" />
+      <entry key="S30" value="2.6500948081346634" />
+      <entry key="S60" value="4.207687699474651" />
+      <entry key="M2" value="6.31102669975823" />
+      <entry key="M5" value="14.361326101878221" />
+      <entry key="M10" value="37.6091311589461" />
+      <entry key="M15" value="62.37914769822013" />
+      <entry key="M30" value="128.80981844906228" />
+      <entry key="H1" value="243.28243763436518" />
+      <entry key="H2" value="390.2369316750286" />
+      <entry key="H4" value="519.5327760579025" />
+      <entry key="D1" value="677.1188426143453" />
+      <entry key="W1" value="710.2710063350389" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -90,12 +111,15 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/madhu/WebstormProjects/ai-resume-analyzer/public/icons",
+    "last_opened_file_path": "C:/Users/madhu/WebstormProjects/ai-resume-analyzer/public",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -103,6 +127,11 @@
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\madhu\WebstormProjects\ai-resume-analyzer\public" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -118,11 +147,23 @@
       <option name="presentableId" value="Default" />
       <updated>1790227734542</updated>
       <workItem from="1790227735584" duration="3091000" />
-      <workItem from="1790230880153" duration="551000" />
+      <workItem from="1790230880153" duration="11763000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/constants/index.ts</url>
+          <line>32</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
